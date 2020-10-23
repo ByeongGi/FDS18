@@ -222,7 +222,7 @@ a {
   animation-fill-mode: forwards;
 }
 .main {
-  background: skyblue;
+  background: #fff;
   /* display: flex;
   flex-flow: row nowrap;
   justify-content: space-between; */
@@ -235,17 +235,67 @@ a {
   float: left;
 }
 .group1 {
-  background: blueviolet;
   width: 250px;
 }
 .group2 {
-  background: lightgreen;
   width: 380px;
 }
 .group3 {
-  background: tomato;
   width: 190px;
 }
+/* 로그인 */
+.login {
+  background: radial-gradient(circle at right top, #efa22f, #ed702d);
+  border-radius: 5px;
+  box-shadow: 5px 5px 0 0 #ccc;
+  padding: 15px 10px;
+}
+.login-heading {
+  margin: 0;
+  color: #ff0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-indent: 10px;
+}
+.login-form {
+  margin-top: 10px;
+  padding: 10px 10px 0 10px;
+  background: #fff;
+  border-radius: 5px 5px 0 0;
+}
+.login-form fieldset {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 0;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.user-email {
+  vertical-align: top;
+}
+
+.login-form label {
+  background: yellow;
+  width: 4em;
+  display: inline-block;
+}
+.login-form input {
+  width: 90px;
+  height: 22px;
+  border: 1px solid #ccc;
+  padding: 1px 1px 1px 0.5em;
+}
+
+.login-member {
+  background: #fff;
+  padding: 0 10px 10px 10px;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  border-radius: 0 0 5px 5px;
+}
+
 .slogan {
   background: orange;
 }
