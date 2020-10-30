@@ -681,11 +681,47 @@ a {
   background-color: pink;
   margin-top: 8px;
   counter-increment: number;
+  /* display: flex;
+  flex-flow: row nowrap;
+  align-items: center; */
 }
 .favorite-list li::before {
   content: counter(number);
+  color: #fff;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 2px 5px;
+  margin-right: 5px;
+  background-color: #999;
+  border-radius: 2px;
 }
-
+.favorite-list a {
+  background-color: aqua;
+  margin-right: 5px;
+  /* flex-grow: 1; */
+}
+.up,
+.stop,
+.down {
+  display: inline-block;
+  font-style: normal;
+  width: 9px;
+  height: 0;
+  padding-top: 11px;
+  overflow: hidden;
+  background-color: lime;
+  background-image: url(./images/rank.png);
+  background-repeat: no-repeat;
+}
+.up {
+  background-position: 0 0;
+}
+.stop {
+  background-position: 0 50%;
+}
+.down {
+  background-position: 0 100%;
+}
 .favorite-more {
   position: absolute;
   top: 2px;
